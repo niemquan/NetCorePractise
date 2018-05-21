@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{D0113081-A89A-42F1-A805-D5D1BD8B1390}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/CreateModel.cshtml.cs">
+    <Files>
+      <File FileName="appsettings.json" Line="2" Column="8" />
+      <File FileName="appsettings.Development.json" Line="10" Column="2" />
+      <File FileName="bundleconfig.json" Line="18" Column="23" />
+      <File FileName="Program.cs" Line="16" Column="10" />
+      <File FileName="Startup.cs" Line="27" Column="26" />
+      <File FileName="Pages/_Layout.cshtml" Line="33" Column="26" />
+      <File FileName="Pages/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="Pages/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="Pages/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Pages/About.cshtml" Line="9" Column="9" />
+      <File FileName="Pages/About.cshtml.cs" Line="19" Column="1" />
+      <File FileName="Pages/Contact.cshtml" Line="10" Column="28" />
+      <File FileName="Pages/Contact.cshtml.cs" Line="19" Column="1" />
+      <File FileName="Source Not Available" />
+      <File FileName="Pages/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Models/Customer.cs" Line="14" Column="1" />
+      <File FileName="Models/AppDbContext.cs" Line="14" Column="6" />
+      <File FileName="Pages/CreateModel.cshtml" Line="16" Column="8" />
+      <File FileName="Pages/CreateModel.cshtml.cs" Line="22" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/JasonNie/aspNetCore/aspnetcoreapp/Pages/About.cshtml.cs" relfile="Pages/About.cshtml.cs" line="15" column="1" />
+      <Breakpoint file="/Users/JasonNie/aspNetCore/aspnetcoreapp/Pages/Contact.cshtml.cs" relfile="Pages/Contact.cshtml.cs" line="15" column="1" />
+      <Breakpoint file="/Users/JasonNie/aspNetCore/aspnetcoreapp/Pages/CreateModel.cshtml.cs" relfile="Pages/CreateModel.cshtml.cs" line="29" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.aspnetcoreapp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,11 @@
+/Users/JasonNie/aspNetCore/aspnetcoreapp/bin/Debug/netcoreapp2.0/aspnetcoreapp.deps.json
+/Users/JasonNie/aspNetCore/aspnetcoreapp/bin/Debug/netcoreapp2.0/aspnetcoreapp.runtimeconfig.json
+/Users/JasonNie/aspNetCore/aspnetcoreapp/bin/Debug/netcoreapp2.0/aspnetcoreapp.runtimeconfig.dev.json
+/Users/JasonNie/aspNetCore/aspnetcoreapp/bin/Debug/netcoreapp2.0/aspnetcoreapp.dll
+/Users/JasonNie/aspNetCore/aspnetcoreapp/bin/Debug/netcoreapp2.0/aspnetcoreapp.pdb
+/Users/JasonNie/aspNetCore/aspnetcoreapp/obj/Debug/netcoreapp2.0/aspnetcoreapp.csprojResolveAssemblyReference.cache
+/Users/JasonNie/aspNetCore/aspnetcoreapp/obj/Debug/netcoreapp2.0/aspnetcoreapp.csproj.CoreCompileInputs.cache
+/Users/JasonNie/aspNetCore/aspnetcoreapp/obj/Debug/netcoreapp2.0/aspnetcoreapp.AssemblyInfoInputs.cache
+/Users/JasonNie/aspNetCore/aspnetcoreapp/obj/Debug/netcoreapp2.0/aspnetcoreapp.AssemblyInfo.cs
+/Users/JasonNie/aspNetCore/aspnetcoreapp/obj/Debug/netcoreapp2.0/aspnetcoreapp.dll
+/Users/JasonNie/aspNetCore/aspnetcoreapp/obj/Debug/netcoreapp2.0/aspnetcoreapp.pdb
