@@ -12539,11 +12539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/JasonNie/Projects/Todo/Todo/Todo.csproj",
+      "projectUniqueName": "/Users/JasonNie/Projects/NetCorePractise/NetCorePractise/Todo/Todo/Todo.csproj",
       "projectName": "Todo",
-      "projectPath": "/Users/JasonNie/Projects/Todo/Todo/Todo.csproj",
+      "projectPath": "/Users/JasonNie/Projects/NetCorePractise/NetCorePractise/Todo/Todo/Todo.csproj",
       "packagesPath": "/Users/JasonNie/.nuget/packages/",
-      "outputPath": "/Users/JasonNie/Projects/Todo/Todo/obj",
+      "outputPath": "/Users/JasonNie/Projects/NetCorePractise/NetCorePractise/Todo/Todo/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

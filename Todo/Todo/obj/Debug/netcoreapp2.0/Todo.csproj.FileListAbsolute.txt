@@ -1,0 +1,11 @@
+/Users/JasonNie/Projects/NetCorePractise/NetCorePractise/Todo/Todo/bin/Debug/netcoreapp2.0/Todo.deps.json
+/Users/JasonNie/Projects/NetCorePractise/NetCorePractise/Todo/Todo/bin/Debug/netcoreapp2.0/Todo.runtimeconfig.json
+/Users/JasonNie/Projects/NetCorePractise/NetCorePractise/Todo/Todo/bin/Debug/netcoreapp2.0/Todo.runtimeconfig.dev.json
+/Users/JasonNie/Projects/NetCorePractise/NetCorePractise/Todo/Todo/bin/Debug/netcoreapp2.0/Todo.dll
+/Users/JasonNie/Projects/NetCorePractise/NetCorePractise/Todo/Todo/bin/Debug/netcoreapp2.0/Todo.pdb
+/Users/JasonNie/Projects/NetCorePractise/NetCorePractise/Todo/Todo/obj/Debug/netcoreapp2.0/Todo.csprojResolveAssemblyReference.cache
+/Users/JasonNie/Projects/NetCorePractise/NetCorePractise/Todo/Todo/obj/Debug/netcoreapp2.0/Todo.csproj.CoreCompileInputs.cache
+/Users/JasonNie/Projects/NetCorePractise/NetCorePractise/Todo/Todo/obj/Debug/netcoreapp2.0/Todo.AssemblyInfoInputs.cache
+/Users/JasonNie/Projects/NetCorePractise/NetCorePractise/Todo/Todo/obj/Debug/netcoreapp2.0/Todo.AssemblyInfo.cs
+/Users/JasonNie/Projects/NetCorePractise/NetCorePractise/Todo/Todo/obj/Debug/netcoreapp2.0/Todo.dll
+/Users/JasonNie/Projects/NetCorePractise/NetCorePractise/Todo/Todo/obj/Debug/netcoreapp2.0/Todo.pdb
