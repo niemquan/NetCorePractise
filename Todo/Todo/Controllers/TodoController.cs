@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Todo.Model;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -10,35 +11,24 @@ using Todo.Model;
 namespace Todo.Controllers
 {
 
-    [Route("api/[controller]")]
-    public class TodoController : Controller
-    {
+	[Route("api/[controller]")]
+	public class TodoController : Controller
+	{
 		private readonly AppDbContext _context;
 
 		public TodoController(AppDbContext context)
 		{
 			_context = context;
-			if(_context.TodoItems.Count() == 0)
-			{
-				TodoItem item = new TodoItem
-				{
-					Id = Guid.NewGuid().ToString(),
-					Name = "Finish self framework"
-				};
-
-				_context.Add<TodoItem>(item);
-				_context.SaveChanges();
-			}
 		}
-        
+
 		[HttpGet()]
 		public List<TodoItem> GetList()
 		{
 			return _context.TodoItems.ToList();
 		}
 
-		[HttpGet("/getTodoItem/{id}",Name = "api")]
-		public IActionResult GetById(string id)
+		[HttpGet("/getTodoItem/{id}", Name = "api")]
+		public IActionResult GetById(Guid id)
 		{
 			try
 			{
@@ -54,6 +44,7 @@ namespace Todo.Controllers
 				return BadRequest(e.Message);
 			}
 		}
+
 		[HttpPost]
 		public IActionResult Create([FromBody]TodoItem todo)
 		{
@@ -63,6 +54,46 @@ namespace Todo.Controllers
 			_context.SaveChanges();
 
 			return CreatedAtRoute("api", new { id = todo.Id }, todo);
+		}
+  
+
+
+		[HttpPut("/UpdateItem/{id}")]
+		public IActionResult Update(Guid id, [FromBody]TodoItem item)
+		{
+			if(item == null || id == Guid.Empty)
+			{
+				return BadRequest();
+			}
+
+			var todo = _context.TodoItems.Find(id);
+
+			if(todo == null)
+			{
+				return NotFound();
+			}
+
+			todo.Name = item.Name;
+			todo.IsComplete = item.IsComplete;
+			_context.TodoItems.Update(todo);
+			_context.SaveChanges();
+			return CreatedAtRoute("api", new { id = todo.Id }, todo);
+		}
+
+		[HttpDelete("{id}")]
+		public IActionResult Delete(Guid id)
+		{
+			if(id == Guid.Empty)
+			{
+				return BadRequest();
+			}
+
+			var item = _context.TodoItems.Find(id);
+			_context.TodoItems.Remove(item);
+
+			_context.SaveChanges();
+
+			return CreatedAtRoute("api", new { id = item.Id }, item);
 		}
     }
 }
