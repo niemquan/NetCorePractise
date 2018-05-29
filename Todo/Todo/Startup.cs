@@ -25,7 +25,9 @@ namespace Todo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-			services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("TodoDb"));
+			//services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("TodoDb"));
+			var connnectionString = Configuration.GetConnectionString("TodoConnectionString");
+			services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("TodoConnectionString")));
             services.AddMvc();
         }
 

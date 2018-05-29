@@ -8,6 +8,7 @@ namespace Todo.Model
     {
 		public static void Initialize(IServiceProvider serviceProvider)
 		{
+			/*
 			using(var context = serviceProvider.GetRequiredService<AppDbContext>())
 			{
 				if(context.TodoItems.AnyAsync<TodoItem>().Result)
@@ -22,7 +23,7 @@ namespace Todo.Model
 					IsComplete = true
 				});
 				context.SaveChanges();
-			}
+			}*/
 
 
 			using (var context = new AppDbContext(serviceProvider.GetRequiredService<DbContextOptions<AppDbContext>>()))
