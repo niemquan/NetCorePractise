@@ -24,7 +24,7 @@ namespace Todo.Controllers
 		[HttpGet()]
 		public List<TodoItem> GetList()
 		{
-			return _context.TodoItems.ToList();
+			return _context.TodoItems.Include(d=>d.Person).ToList();
 		}
 
 		[HttpGet("/getTodoItem/{id}", Name = "api")]
